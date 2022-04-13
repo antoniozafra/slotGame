@@ -44,14 +44,22 @@ const casilla13 = document.getElementById('casilla13').getAttribute('data-value'
 const casilla14 = document.getElementById('casilla14').getAttribute('data-value');
 const casilla15 = document.getElementById('casilla15').getAttribute('data-value');
 
-console.log(casilla1+"Values");
-   
+/*EJEMPLO DE LA MATRIZ 
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,0,
+
+*/
 
 
-    console.log("Comprobando Premios");
 
+console.log(data[0],data[1], data[2], data[3])
 
-    console.log("La data es: " + data)
+    if(data[0] === data[1] && data[0] === data[2] && data[0] === data[3]){
+        alert('premio')
+    }
+    
+
 
 
 }

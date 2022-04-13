@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#rodillos > div {
+    width: 20%;
+    float: left;
+}
+
+.rodillos {
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+}
+
+.clearFix{
+    clear: both;
+    float: none;
+}
+
+.contenedorLineas{
+    background-color: red;
+}

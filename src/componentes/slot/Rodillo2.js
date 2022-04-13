@@ -5,29 +5,29 @@ import piña from '../../images/piña.png'
 import sandia from '../../images/sandia.png'
 import platano from '../../images/platano.png'
 
-export const Rodillo1 = () => {
+export const Rodillo2 = () => {
   return (
 
 
     <>
     <div >
 
-        {/*RODILLO 1 */}
+        {/*RODILLO 2 */}
         <div className='rodillos ' id='rodillo 1'>
 
-            {/*CASILLA 1 */}
-            <div className='mt-3 rodillo' id='casilla1' data-value="uva">
+            {/*CASILLA 4 */}
+            <div className='mt-3 rodillo' id='casilla4' data-value="uva">
             <img src={uva} />
             </div>
 
-            {/*CASILLA 2 */}
-            <div className='mt-3 rodillo' id='casilla2' data-value="piña">
+            {/*CASILLA 5 */}
+            <div className='mt-3 rodillo' id='casilla5' data-value="piña">
             <img src={piña}/>
             </div>
             
 
-            {/*CASILLA 3 */}
-            <div className='mt-3 rodillo' id='casilla3' data-value="platano">
+            {/*CASILLA 6 */}
+            <div className='mt-3 rodillo' id='casilla6' data-value="platano">
             <img src={platano}/>
             </div>
             
