@@ -15,6 +15,7 @@ import { TituloSlot } from './TituloSlot'
 export const Slot = () => {
   return (
       <>
+      <TituloSlot/>
 
 
       {/*FILA QUE CONTIENE TODA LA APLICACION */}
@@ -38,7 +39,7 @@ export const Slot = () => {
         {/*FIN COLUMNA QUE CONTIENE LOS RODILLOS */}
 
         {/*CONTENEDOR DE LA BOTONERA E INFORMACION */}
-          <div class=' col-md-3 bg-success'>
+          <div class=' col-md-3 '>
 
           <Botonera/>
           

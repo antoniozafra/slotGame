@@ -1,15 +1,20 @@
 import React from 'react'
-import boton from '../../images/boton.png'
 import { GenerateRandomNumber } from '../../rng/GenerateRandomNumber'
 
 
 export const Botonera = () => {
 const generatePlay = ()=>  {
-  for (let i = 0; i < 200; i++) {
+
+  //REPRODUCIMOS EL AUDIO CADA VEZ QUE EL USUARIO HACE CLICK EN EL BOTON DE TIRAR
+  const sound = new Audio(require('../../soundFX/activarBoton.mp3'));
+  sound.play();
+
     
     GenerateRandomNumber();
+  
     
-  }
+    
+  
 }
 
 
@@ -26,36 +31,43 @@ const generatePlay = ()=>  {
       <div className='row container-fluid'>
         <div className='clearFix'></div>
 
-          <div className=' bg-primary col-12 text-center mt-2' id='contenedorLineas'>
+          <div className='  col-12 text-center mt-2 boton' id='contenedorLineas'>
             <h3 className=''>LINEAS</h3>
             <span>10</span>
 
           </div>
 
 
-          <div className=' bg-primary col-12 text-center mt-3' id='contenedorLineas'>
+          <div className='  col-12 text-center mt-3 boton' >
             <h3 className=''>APUESTA</h3>
-            <span>1€</span>
+            <span id='valorApuesta'>1</span>
+            <span >€</span>
 
           </div>
 
 
-          <div className=' bg-primary col-12 text-center mt-3' id='contenedorLineas'>
-            <h3 className=''>DINERO</h3>
-            <span>1000.24</span>
+          <div className='  col-12 text-center mt-3 boton' >
+            <h3 >DINERO</h3>
+            <span id='valorDinero'>1000</span>
+            <span>€</span>
 
           </div>
 
 
-          <div className=' bg-primary col-12 text-center mt-3' id='contenedorLineas'>
+          <div className='  col-12 text-center mt-3 boton' >
             <h3 className=''>PREMIO</h3>
-            <span>11€</span>
+            <span>0 €</span>
 
           </div>
 
-          <div className=' bg-primary col-12 text-center mt-3' id='contenedorLineas' onClick={generatePlay}>
-            <h3 className=''>Girar</h3>
-            <img className='w-75' src={boton} />  
+          <div className='  col-12 text-center mt-3 boton' id='generatePlay' onClick={generatePlay}>
+            <h3 >Girar</h3>
+
+           {/* <audio controls >
+             <source  type='audio/mpeg' src='../../soundFX/activarBoton.mp3'/>
+            </audio> */}
+
+            {/* <img className='w-75' src={boton} />   */}
 
           </div>
 
