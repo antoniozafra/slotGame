@@ -7,10 +7,12 @@ const generatePlay = ()=>  {
 
   //REPRODUCIMOS EL AUDIO CADA VEZ QUE EL USUARIO HACE CLICK EN EL BOTON DE TIRAR
   const sound = new Audio(require('../../soundFX/activarBoton.mp3'));
-  sound.play();
+  // sound.play();
 
-    
+
     GenerateRandomNumber();
+    
+    
   
     
     
@@ -54,7 +56,7 @@ const generatePlay = ()=>  {
           </div>
 
 
-          <div className='  col-12 text-center mt-3 boton' >
+          <div className='  col-12 text-center mt-3 boton' id='casillaPremio'>
             <h3 className=''>PREMIO</h3>
             <span>0 €</span>
 

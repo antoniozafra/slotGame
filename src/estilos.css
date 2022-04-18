@@ -7,7 +7,9 @@
 body{
     background: url('https://i.pinimg.com/originals/f8/7a/45/f87a4511888daa4df3bf29cf7d87dfd6.jpg');
     background-size: cover;
+    
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 #rodillos > div {
@@ -44,6 +46,12 @@ img{
   
 }
 
+#generatePlay{
+    border: 0px;
+    box-shadow: 2px 2px 10px inset black;
+
+}
+
 .boton{
     width: 100%;
     margin: 0px;
@@ -51,7 +59,6 @@ img{
     border-radius: 5px;
     box-shadow: 2px 2px 10px white;
     border:  5px solid white;
-    
     background-color: transparent;
 }
 
@@ -74,8 +81,9 @@ img{
 
 .tituloSlot h1{
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     /* border: 5px solid white; */
+    text-align: center;
    
     color: white;
     font-size: 50px;
@@ -84,7 +92,7 @@ img{
 
 
 
-/*EJEMPLO DE ANIMACION*/
+/*EJEMPLO DE ANIMACION DE CADA TIRADA*/
 @keyframes onDisplay
 {
 from {margin-left:660px;}
@@ -100,4 +108,20 @@ to {margin-top:0px;}
     from {margin-left:660px;}
     to {margin-top:0px;}
 }
+
+/*TRANSICION PARA LOS PREMIOS*/
+@keyframes premio
+{
+0% {
+transform: scale(1.05);
+}
+
+66% {
+    transform: scale(1.10);}
+100% {
+    transform: scale(1.15);}
+}
+
+
+
 

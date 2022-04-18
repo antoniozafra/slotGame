@@ -2,8 +2,8 @@ import React from 'react'
 
 export const TituloSlot = () => {
   return (
-    <div className='container-fluid  tituloSlot'>
-        <h1 className='text-center '>JUEGO DE LAS FRUTAS</h1>
+    <div className='container-fluid   tituloSlot' id='titulo'>
+        <h1 className=''>JUEGO DE LAS FRUTAS</h1>
 
 
     </div>
