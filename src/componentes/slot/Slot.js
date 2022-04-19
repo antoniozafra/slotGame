@@ -50,6 +50,22 @@ export const Slot = () => {
 
       </div>
 
+
+      <div className='clearFix'></div>
+      <div className='d-none' id='informacionPremios'>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+        <h1>Informacion de Premios</h1>
+
+
+      </div>
       
       </>
  )

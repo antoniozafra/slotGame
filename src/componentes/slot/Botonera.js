@@ -3,6 +3,13 @@ import { GenerateRandomNumber } from '../../rng/GenerateRandomNumber'
 
 
 export const Botonera = () => {
+
+const displayPremios = () => {
+  document.getElementById('infoPremios').style.display = 'block'
+
+}
+
+
 const generatePlay = ()=>  {
 
   //REPRODUCIMOS EL AUDIO CADA VEZ QUE EL USUARIO HACE CLICK EN EL BOTON DE TIRAR
@@ -26,6 +33,7 @@ const generatePlay = ()=>  {
 
 
   return (
+    <>
 
     <div className='container-fluid  ' id='botonera'>
       {/* <p>AJUSTES</p> */}
@@ -73,10 +81,25 @@ const generatePlay = ()=>  {
 
           </div>
 
+          <div className='  col-12 text-center mt-3 ' id="infoPremios">
+            <h6 className='text-white border p-4' onClick={displayPremios}><a   className='text-light'>INFORMACION DE PREMIOS</a></h6>
+
+          </div>
+
+
+            
+
         
 
       </div>
+
+    
       
       </div>
+
+
+
+      
+            </>
   )
 }
