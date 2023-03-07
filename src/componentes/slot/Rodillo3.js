@@ -15,7 +15,7 @@ export const Rodillo3 = () => {
     <div >
 
         {/*RODILLO 3 */}
-        <div className='rodillos ' id='rodillo 3'>
+        <div className='rodillos ' id='rodillo3'>
 
             {/*CASILLA 1 */}
             <div className='mt-3 rodillo' id='casilla7' data-value="uva">

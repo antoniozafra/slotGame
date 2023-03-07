@@ -8,10 +8,6 @@ import { Rodillo5 } from './Rodillo5'
 import { TituloSlot } from './TituloSlot'
 
 
-
-
-
-
 export const Slot = () => {
   return (
       <>
@@ -22,7 +18,7 @@ export const Slot = () => {
       <div className='container-fluid row '>
        
         {/*COLUMNA QUE CONTIENE LOS RODILLOS */}
-        <div class=' col-md-9 '>
+        <div class=' col-md-10 mx-auto' id='slotContainer'>
 
           <div className='container-fluid row' id='rodillos'>
 
@@ -39,9 +35,9 @@ export const Slot = () => {
         {/*FIN COLUMNA QUE CONTIENE LOS RODILLOS */}
 
         {/*CONTENEDOR DE LA BOTONERA E INFORMACION */}
-          <div class=' col-md-3 '>
+          <div class=' container '>
 
-          <Botonera/>
+            <Botonera/>
           
           </div>
         {/*FIN CONTENEDOR DE LA BOTONERA E INFORMACION */}

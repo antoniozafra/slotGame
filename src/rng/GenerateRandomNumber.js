@@ -9,7 +9,7 @@ import 'animate.css';
 export const GenerateRandomNumber = () => {
 
 //DEJAMOS EL TITULO COMO ESTA
-document.getElementById("titulo").innerHTML = "<h1>EL JUEGO DE LAS FRUTAS</h1>";
+// document.getElementById("titulo").innerHTML = "<h1>EL JUEGO DE LAS FRUTAS</h1>";
 
 
 //RECOGEMOS EL VALOR DE LA APUESTA DEL USUARIO
@@ -45,9 +45,7 @@ console.log(data)
 
 
 
-export const  comprobarPremios =  ( data) => {
-
-
+export const  comprobarPremios =  (data) => {
 
 const uva = 'https://images.vexels.com/media/users/3/143152/isolated/preview/3969b58afeeddbe056f8a8d64401f5b9-icono-de-racimo-de-uvas.png';
 const piña = 'https://images.vexels.com/media/users/3/230815/isolated/preview/96030310a657b507d8736c670bdd5b44-dibujos-animados-de-pina-feliz.png';
@@ -55,7 +53,7 @@ const platano = 'https://cdn3.iconfinder.com/data/icons/casino/256/Bananas-512.p
 const limon = 'https://cdn-icons-png.flaticon.com/512/2634/2634742.png';
 const sandia = 'https://cdn-icons-png.flaticon.com/512/874/874997.png';
 
-data =[5,1,2,3,4,5,5,1,2,3,4,5,5,2,3];
+// data =[5,1,2,3,4,5,5,1,2,3,4,5,5,2,3];
 
 //RECORREMOS TODAS LAS CASILLAS Y LE ASIGNAMOS LA IMAGEN
 for (let i = 0; i < data.length+1; i++) {
@@ -1110,7 +1108,7 @@ export const devolverPremio = (data) =>  {
                                 COMPROBACION DE PREMIOS EN LA LINEA 21
     -----------------------------------------------------------------------------------------------------------*/
     if(data[0] === data[4] && data[0] === data[8] && data[0] === data[11] && data[0] === data[14] ){
-        alert("PREMIO LINEA 21")
+        // alert("PREMIO LINEA 21")
 
 
         //COMPROBAMOS QUE TIPO DE FIGURA ES LA QUE HA DADO PREMIO Y APLICAMOS EL PREMIO CORRESPONDIENTE
@@ -1250,22 +1248,6 @@ export const devolverPremio = (data) =>  {
 
         
     }
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
 
 
 
