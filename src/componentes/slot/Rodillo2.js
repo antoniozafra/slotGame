@@ -18,18 +18,18 @@ export const Rodillo2 = () => {
         <div className='rodillos ' id='rodillo2'>
 
             {/*CASILLA 4 */}
-            <div className='mt-3 rodillo' id='casilla4' data-value="uva">
+            <div className='mt-3 casilla' id='casilla4' data-value="uva">
             <img src={piña} id="imagenCasilla4"/>
             </div>
 
             {/*CASILLA 5 */}
-            <div className='mt-3 rodillo' id='casilla5' data-value="piña">
+            <div className='mt-3 casilla' id='casilla5' data-value="piña">
             <img src={piña} id="imagenCasilla5"/>
             </div>
             
 
             {/*CASILLA 6 */}
-            <div className='mt-3 rodillo' id='casilla6' data-value="platano">
+            <div className='mt-3 casilla' id='casilla6' data-value="platano">
             <img src={piña} id="imagenCasilla6"/>
             </div>
             
